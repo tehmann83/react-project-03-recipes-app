@@ -1,10 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return (
-    <div>recipe app!</div>
-  );
+  return <div>recipe app!</div>;
 }
 
 export default App;
