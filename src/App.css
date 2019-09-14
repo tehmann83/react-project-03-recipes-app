@@ -3,7 +3,7 @@ body {
 }
 
 .text-slanted {
-  font-family: "Courgette", cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 .text-orange {
@@ -14,8 +14,14 @@ body {
   letter-spacing: 0.5rem;
 }
 
-.header-hero {
+.header-hero,
+.default-hero {
   min-height: calc(100vh - 56px);
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     center/cover no-repeat url("./images/homeBcg.jpeg");
+}
+
+.default-hero {
+  background: linear-gradient(rgba(241, 153, 37, 0.3), rgba(241, 159, 37, 0.3)),
+    center/cover no-repeat url("./images/defaultBcg.jpeg");
 }
