@@ -11,6 +11,10 @@ body {
   font-family: "Monoton", cursive; */
 }
 
+.text-slanted-small {
+  font-family: "Righteous", cursive;
+}
+
 .text-orange {
   color: #f15025;
 }

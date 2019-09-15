@@ -22,8 +22,7 @@ export default class Recipe extends Component {
           <div className="card-body-text-capitalize">
             <h6>{title}</h6>
             <span>
-              <h6 className="">provided by</h6>
-              <h6 className="text-danger text-slanted">{publisher}</h6>
+              <h6 className="text-danger text-slanted mb-4">{publisher}</h6>
             </span>
             <div className="card-footer">
               <Link
