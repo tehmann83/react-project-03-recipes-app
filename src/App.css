@@ -3,7 +3,12 @@ body {
 }
 
 .text-slanted {
-  font-family: "Rock Salt", cursive;
+  font-family: "Monoton", cursive;
+  /*font-family: "Rock Salt", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Lobster", cursive;
+  font-family: "Righteous", cursive;
+  font-family: "Monoton", cursive; */
 }
 
 .text-orange {

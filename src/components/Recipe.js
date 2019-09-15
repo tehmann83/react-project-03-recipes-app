@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 
 export default class Recipe extends Component {
   render() {
+    const {recipe} = this.props;
     return (
       <div>
-        A recipe here
+        {recipe.title}
       </div>
     )
   }
