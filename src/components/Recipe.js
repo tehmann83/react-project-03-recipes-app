@@ -19,7 +19,7 @@ export default class Recipe extends Component {
             alt="recipe"
             className="img-card-top"
           />
-          <div className="card-body-text-capitalize">
+          <div className="card-body-text-capitalize text-slanted-small">
             <h6>{title}</h6>
             <span>
               <h6 className="text-danger text-slanted mb-4">{publisher}</h6>
